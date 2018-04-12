@@ -1,21 +1,19 @@
 .wrapper {
   margin: 0 auto;
   width: 1300px;
+  overflow: hidden;
 }
 .wrapper{
   background-color: white;
   opacity:0.93;
 }
+.wrapper{
+  margin-top:10px;
+}
 
 .Logo {
   background-color: #e0e0e0;
   border-bottom: black solid 5pt;
-}
-
-h1 {
-  margin-left: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 40pt;
 }
 
 body {
@@ -32,7 +30,7 @@ body {
 }
 
 .topnav {
-  margin-top: 10px;
+  margin-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -61,15 +59,53 @@ body {
   padding: 25px 40px;
 }
 
-.Introduction{
-  font-size: 25pt;
-  font-family: 'Nunito', sans-serif;
-  margin-left: 20px;
-  text-align: center;
+#CalorieCounter{
+  font-size: 70pt;
+  font-family: Arial;
 }
 
-.button{
-  padding: 15px 32px;
-  margin-bottom: 30px;
-  font-size: 16pt;
+#CalorieCounter{
+  margin-top: 300px;
+  margin-left: 200px;
+  margin-bottom: 300px;
+  float: left;
+    overflow: hidden;
+}
+
+.countertext{
+  font-size: 25pt;
+}
+
+#CalorieButton{
+  padding: 10px 25px;
+  font-size: 14pt;
+  margin-top: 300px;
+  margin-left: 200px;
+  margin-bottom: 500px;
+  position: fixed;
+}
+
+#ExerciseCounter{
+  font-size: 70pt;
+  font-family: Arial;
+}
+
+#ExerciseCounter{
+  margin-top: 300px;
+  margin-right: 200px;
+  margin-bottom: 300px;
+  float:right;
+}
+
+.countertext{
+  font-size: 25pt;
+}
+
+#ExerciseButton{
+  padding: 10px 25px;
+  font-size: 14pt;
+  margin-top: 300px;
+  margin-left: 900px;
+  margin-bottom: 500px;
+  position: fixed;
 }

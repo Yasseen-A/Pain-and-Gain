@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Current PLan</title>
+  <link rel="stylesheet" href="./stylesheets/style2.css">
+</head>
+
+
+<body>
+  <div class="Logo">
+    <center> <img src="./photos/title.png"></center>
+  </div>
+
+  <div class="combo1">
+
+    <body background="./photos/background.png">
+  </div>
+
+  <div class="wrapper">
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="current-plan.html">Current Plan</a>
+      <a href="#Calorie Counter">Calorie Counter</a>
+      <a href="#contact">Exercises</a>
+      <a href="#about">Diet Plans</a>
+    </div>
+
+<div class="ButtonGroup">
+
+    <button id="CalorieButton" onclick="myFunction()">Consuming Target</button>
+    <button id="ExerciseButton" onclick="MyBurningTarget()">Exercising Target</button>
+    </div>
+
+<div class="TargetGroup">
+
+    <p id="CalorieCounter"></p>
+    <p id="ExerciseCounter"></p>
+    </div>
+
+    <script>
+      function myFunction() {
+        var calories = prompt("How many calories would you like to consume?");
+        if (calories != null) {
+          document.getElementById("CalorieCounter").innerHTML =
+            calories + "<span class='countertext'>calories</span>";
+          document.getElementById('CalorieButton').style.display = 'none';
+        }
+      }
+    </script>
+
+    <script>
+      function MyBurningTarget() {
+        var calories_burnt = prompt("How many calories would you like to burn?");
+        if (calories_burnt != null) {
+          document.getElementById("ExerciseCounter").innerHTML =
+            calories_burnt + "<span class='countertext'>calories</span>";
+          document.getElementById('ExerciseButton').style.display = 'none';
+        }
+      }
+    </script>
+
+
+</div>
+
+    </body>
+
+</html>
