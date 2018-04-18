@@ -32,29 +32,33 @@ body {
 .topnav {
   margin-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
   overflow: hidden;
   background-color: #323232;
+  text-align: center;
 }
 
-.topnav {
+.topnav > button {
+  overflow: hidden;
+  background-color: #323232;
+  align-content: center;
+}
+
+.topnav > button{
   float: none;
   text-align: center;
   padding: 25px 50px;
   font-size: 30px;
+  border: 0;
 }
 
-.topnav > a {
+.topnav > button {
   text-decoration: none;
   color: #f2f2f2;
   padding-right: 40px;
   padding-left: 40px;
-  position: relative;
 }
 
-.topnav a:hover {
+.topnav button:hover {
   background-color: #ddd;
   color: black;
   padding: 25px 40px;
