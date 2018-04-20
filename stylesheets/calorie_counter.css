@@ -1,0 +1,56 @@
+.calorie_intake > select{
+  padding: 6px 200px;
+  font-size: 16pt;
+  border-radius: 12px;
+  margin: auto;
+  display: block;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.quantitiy > select {
+  padding: 6px 120px;
+  font-size: 16pt;
+  border-radius: 12px;
+  margin-top: 40px;
+  margin-left: 325px;
+  float: left;
+  text-align: center;
+}
+
+#add_food{
+  margin-top: 40px;
+  margin-left: 140px;
+  padding: 10px 20px;
+  font-size: 12pt;
+}
+
+.option_header{
+  font-size: 32pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#enter_food{
+  padding: 6px 20px;
+  font-size: 16pt;
+  margin-top: 40px;
+  margin-left: 325px;
+
+}
+#manual_calories{
+  padding: 6px 20px;
+  font-size: 16pt;
+  margin-left: 25px;
+
+}
+
+#manual_entry{
+  padding: 10px 20px;
+  font-size: 12pt;
+  margin: auto;
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
