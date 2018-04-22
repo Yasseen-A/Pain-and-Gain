@@ -1,0 +1,66 @@
+#arms {
+  font-size: 22pt;
+  padding: 75px 75px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+#legs {
+  font-size: 22pt;
+  padding: 75px 75px;
+  margin-left: 65px;
+  margin-top: 50px;
+}
+
+#upper_body {
+  font-size: 22pt;
+  padding: 75px 32px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+#lower_body {
+  font-size: 22pt;
+  padding: 75px 32px;
+  margin-left: 65px;
+  margin-top: 50px;
+}
+
+#cardio {
+  font-size: 22pt;
+  padding: 75px 75px;
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#arms:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#legs:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#upper_body:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#lower_body:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#cardio:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}

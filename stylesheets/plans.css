@@ -113,6 +113,31 @@ body {
   position: fixed;
 }
 
-.food{
+.food_tab{
+  display: none;
+}
+
+.exercise_tab{
+  display: none;
+}
+
+.plans{
+  display: none;
+}
+
+.arm_exercises{
+  display: none;
+}
+
+.leg_exercises{
+  display: none;
+}
+.upper_body_exercises{
+  display: none;
+}
+.lower_body_exercises{
+  display: none;
+}
+.cardio_exercises{
   display: none;
 }

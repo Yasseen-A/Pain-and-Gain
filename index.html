@@ -3,10 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Pain and Gain</title>
-  <link rel="stylesheet" href="./stylesheets/style.css">
+  <title>Current PLan</title>
+  <link rel="stylesheet" href="./stylesheets/plans.css">
+  <script src="./javascripts/javascript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="./stylesheets/calorie_counter.css">
+  <link rel="stylesheet" href="./stylesheets/front_page.css">
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link rel="stylesheet" href="./stylesheets/exercise_page.css">
 </head>
+
 
 <body>
   <div class="Logo">
@@ -18,35 +24,261 @@
     <body background="./photos/background.png">
   </div>
 
-
-
-
   <div class="wrapper">
     <div class="topnav">
-      <button onclick="window.location.href='index.html'">Home</button>
-      <button onclick="window.location.href='current-plan.html'">Current Plan</button>
-      <button>Calorie Counter</button>
-      <button>Exercises</button>
+      <button id="home_page">Home</button>
+      <button id="showTarget">Current Plan</button>
+      <button id="showCalorieCounter">Calorie Counter</button>
+      <button id="showExercises">Exercises</button>
       <button>Diet plans</button>
     </div>
+    <div class="home_display">
 
 
-    <div class="Introduction">
+      <div class="Introduction">
 
-      <h1>Welcome to pain and gain</h1>
+        <h1>Welcome to Pain and Gain</h1>
+        <br>
+        <p>Looking to change your lifestyle around then you've come to the right place.</p>
+        <p>We have a variety of features that will ensure that you will get results, </p>
+        <p> from our very own calorie counter to our ready made plans and exercises </p>
+        <br>
+        <p>So what are you waiting for? Press the button to get started now </p>
+      </div>
+
+
+      <form>
+        <center><input type="button" id="button" value="Get Started" /></center>
+      </form>
+
+    </div>
+
+    <div class="plans">
+
+
+      <div class="ButtonGroup">
+
+        <button id="CalorieButton" onclick="EatingTarget()">Consuming Target</button>
+        <button id="ExerciseButton" onclick="MyBurningTarget()">Exercising Target</button>
+      </div>
+
+      <div class="TargetGroup">
+
+        <p id="CalorieCounter"></p>
+        <p id="ExerciseCounter"></p>
+      </div>
+
+
+    </div>
+
+    <div class="food_tab">
+
+      <form name="food_form">
+        <div class="calorie_intake">
+          <select name="foodList">
+      <option value="0"> - Please select an item - </option>
+      <option value="100">Coke 100 cal</option>
+      <option value="200">Crisps 200 cal</option>
+      <option value="300">Burger 300 cal</option>
+      <option value="400">Sweets 400 cal</option>
+    </select>
+        </div>
+
+        <div class="quantitiy">
+          <select name="food_quantity">
+      <option value="1">- Quantity -</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+
+    </select>
+        </div>
+      </form>
+      <button id="add_food" onclick="calorie_deductor()">Add</button>
       <br>
-      <p>Looking to change your lifestyle around then you've come to the right place.</p>
-      <p>We have a variety of features that will ensure that you will get results, </p>
-      <p> from our very own calorie counter to our ready made plans and exercises </p>
+
+      <h2 class="option_header">Can't find it? Enter your own</h2>
+
+
+      <input type="text" id="enter_food" placeholder="Food name">
+      <input type="text" id="manual_calories" placeholder="Calories">
       <br>
-      <p>So what are you waiting for? Press the button to get started now </p>
+      <button id="manual_entry" onclick="manual_deductor()">Add</button>
+
+    </div>
+
+    <div class="exercise_tab">
+      <button  id="arms">Arms</button>
+      <button  id="legs">Legs</button>
+
+<br>
+      <button  id="upper_body">Upper Body</button>
+      <button  id="lower_body">Lower body</button>
+
+<br>
+
+     <button  id="cardio">Cardio</button>
     </div>
 
 
-    <form>
-    <center><input type="button" class="button" value="Get Started" onclick="window.location.href='current-plan.html'" /></center>
-    </form>
+    <div class="arm_exercises">
 
+these are the arms ecxercises
+
+    </div>
+
+    <div class="leg_exercises">
+
+these are the leg ecxercises
+
+    </div>
+
+    <div class="upper_body_exercises">
+
+these are the upper_body ecxercises
+
+    </div>
+
+    <div class="lower_body_exercises">
+
+these are the lower_body ecxercises
+
+    </div>
+
+    <div class="cardio_exercises">
+
+these are the cardio ecxercises
+
+    </div>
+
+
+
+
+
+
+
+    <script>
+      $(document).ready(function() {
+        $("#home_page").click(function() {
+          $(".plans").hide();
+          $(".food_tab").hide();
+          $(".exercise_tab").hide();
+          $(".home_display").show();
+          $(".arm_exercises").hide();
+          $(".leg_exercises").hide();
+          $(".upper_body_exercises").hide();
+          $(".lower_body_exercises").hide();
+          $(".cardio_exercises").hide();
+        });
+        $("#button").click(function() {
+          $(".plans").show();
+          $(".food_tab").hide();
+          $(".exercise_tab").hide();
+          $(".home_display").hide();
+          $(".arm_exercises").hide();
+          $(".leg_exercises").hide();
+          $(".upper_body_exercises").hide();
+          $(".lower_body_exercises").hide();
+          $(".cardio_exercises").hide();
+        });
+        $("#showCalorieCounter").click(function() {
+          $(".plans").hide();
+          $(".food_tab").show();
+          $(".exercise_tab").hide();
+          $(".home_display").hide();
+          $(".arm_exercises").hide();
+          $(".leg_exercises").hide();
+          $(".upper_body_exercises").hide();
+          $(".lower_body_exercises").hide();
+          $(".cardio_exercises").hide();
+        });
+        $("#showTarget").click(function() {
+          $(".plans").show();
+          $(".food_tab").hide();
+          $(".exercise_tab").hide();
+          $(".home_display").hide();
+          $(".arm_exercises").hide();
+          $(".leg_exercises").hide();
+          $(".upper_body_exercises").hide();
+          $(".lower_body_exercises").hide();
+          $(".cardio_exercises").hide();
+        });
+        $("#showExercises").click(function() {
+          $(".plans").hide();
+          $(".food_tab").hide();
+          $(".exercise_tab").show();
+          $(".home_display").hide();
+          $(".arm_exercises").hide();
+          $(".leg_exercises").hide();
+          $(".upper_body_exercises").hide();
+          $(".lower_body_exercises").hide();
+          $(".cardio_exercises").hide();
+        });
+        $("#arms").click(function() {
+          $(".plans").hide();
+          $(".food_tab").hide();
+          $(".exercise_tab").hide();
+          $(".home_display").hide();
+          $(".arm_exercises").show();
+          $(".leg_exercises").hide();
+          $(".upper_body_exercises").hide();
+          $(".lower_body_exercises").hide();
+          $(".cardio_exercises").hide();
+        });
+        $("#legs").click(function() {
+          $(".plans").hide();
+          $(".food_tab").hide();
+          $(".exercise_tab").hide();
+          $(".home_display").hide();
+          $(".arm_exercises").hide();
+          $(".leg_exercises").show();
+          $(".upper_body_exercises").hide();
+          $(".lower_body_exercises").hide();
+          $(".cardio_exercises").hide();
+        });
+        $("#upper_body").click(function() {
+          $(".plans").hide();
+          $(".food_tab").hide();
+          $(".exercise_tab").hide();
+          $(".home_display").hide();
+          $(".arm_exercises").hide();
+          $(".leg_exercises").hide();
+          $(".upper_body_exercises").show();
+          $(".lower_body_exercises").hide();
+          $(".cardio_exercises").hide();
+        });
+        $("#lower_body").click(function() {
+          $(".plans").hide();
+          $(".food_tab").hide();
+          $(".exercise_tab").hide();
+          $(".home_display").hide();
+          $(".arm_exercises").hide();
+          $(".leg_exercises").hide();
+          $(".upper_body_exercises").hide();
+          $(".lower_body_exercises").show();
+          $(".cardio_exercises").hide();
+        });
+        $("#cardio").click(function() {
+          $(".plans").hide();
+          $(".food_tab").hide();
+          $(".exercise_tab").hide();
+          $(".home_display").hide();
+          $(".arm_exercises").hide();
+          $(".leg_exercises").hide();
+          $(".upper_body_exercises").hide();
+          $(".lower_body_exercises").hide();
+          $(".cardio_exercises").show();
+        });
+
+      });
+    </script>
   </div>
 
   </body>
