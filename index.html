@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./stylesheets/front_page.css">
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   <link rel="stylesheet" href="./stylesheets/exercise_page.css">
+  <link rel="stylesheet" href="./stylesheets/arms_and_legs.css">
 </head>
 
 
@@ -115,46 +116,104 @@
     </div>
 
     <div class="exercise_tab">
-      <button  id="arms">Arms</button>
-      <button  id="legs">Legs</button>
+      <button id="arms">Arms</button>
+      <button id="legs">Legs</button>
 
-<br>
-      <button  id="upper_body">Upper Body</button>
-      <button  id="lower_body">Lower body</button>
+      <br>
+      <button id="upper_body">Upper Body</button>
+      <button id="lower_body">Lower body</button>
 
-<br>
+      <br>
 
-     <button  id="cardio">Cardio</button>
+      <button id="cardio">Cardio</button>
     </div>
 
 
     <div class="arm_exercises">
 
-these are the arms ecxercises
+      <div>
+        <img src="./photos/bicep_curl.png" class="bicep_curl">
+        <br>
+        <h2>Bicep Curls</h2>
+        <input type="number"  min="1" id="curls_sets" placeholder="Sets">
+        <input type="number"  min="1"id="curls_reps" placeholder="Reps">
+        <br>
+        <button id="add_curls" onclick="bicep_curls_deductor()">Add Bicep Curls</button>
+      </div>
+
+      <br>
+
+      <div>
+        <img src="./photos/chin_up.png" class="chin_up">
+        <br>
+        <h2>Chin Ups</h2>
+        <input type="number"  min="1" id="chin_up_sets" placeholder="Sets">
+        <input type="number"  min="1" id="chin_up_reps" placeholder="Reps">
+        <br>
+        <button id="add_chin_ups" onclick="chin_up_deductor()">Add Chin Ups</button>
+      </div>
+
+      <br>
+      <br>
+
+      <div>
+        <img src="./photos/dips.png" class="dips">
+        <br>
+        <h2>Dips</h2>
+        <input type="number"  min="1" id="dips_sets" placeholder="Sets">
+        <input type="number"  min="1" id="dips_reps" placeholder="Reps">
+        <br>
+        <button id="add_dips" onclick="dips_deductor()">Add dips</button>
+      </div>
+
+<br>
+
+      <div>
+        <img src="./photos/tricep_pushdown.png" class="triceps">
+        <br>
+        <h2>Triceps Push Down</h2>
+        <input type="number"  min="1" id="triceps_sets" placeholder="Sets">
+        <input type="number"  min="1" id="triceps_reps" placeholder="Reps">
+        <br>
+        <button id="add_triceps" onclick="triceps_deductor()">Add Tricep Pushdown</button>
+      </div>
+
+      <br>
+      <br>
+
+      <div>
+        <img src="./photos/bar_curl.png" class="bar_curl">
+        <br>
+        <h2>Bar Curl</h2>
+        <input type="number"  min="1" id="bar_curl_sets" placeholder="Sets">
+        <input type="number"  min="1" id="bar_curl_reps" placeholder="Reps">
+        <br>
+        <button id="add_bar_curl" onclick="bar_curl_deductor()">Add Bar Curls</button>
+      </div>
 
     </div>
 
     <div class="leg_exercises">
 
-these are the leg ecxercises
+      these are the leg ecxercises
 
     </div>
 
     <div class="upper_body_exercises">
 
-these are the upper_body ecxercises
+      these are the upper_body ecxercises
 
     </div>
 
     <div class="lower_body_exercises">
 
-these are the lower_body ecxercises
+      these are the lower_body ecxercises
 
     </div>
 
     <div class="cardio_exercises">
 
-these are the cardio ecxercises
+      these are the cardio ecxercises
 
     </div>
 

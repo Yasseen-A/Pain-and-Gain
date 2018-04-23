@@ -54,3 +54,79 @@ else{
   alert("you have not entered a value");
 }
 }
+
+
+function bicep_curls_deductor(){
+  var sets = document.getElementById("curls_sets").value;
+  var reps = document.getElementById("curls_reps").value;
+  var bicep_curl = 8;
+
+  if (calories_burnt > 0){
+    calories_burnt = calories_burnt - ((bicep_curl * reps) * sets);
+    document.getElementById("ExerciseCounter").innerHTML =
+    calories_burnt + "<span class='countertext'>calories</span>";
+  }
+  else{
+    alert("you have not entered a value");
+  }
+}
+
+function chin_up_deductor(){
+  var sets = document.getElementById("chin_up_sets").value;
+  var reps = document.getElementById("chin_up_reps").value;
+  var chin_up = 1;
+
+  if (calories_burnt > 0){
+    calories_burnt = calories_burnt - ((chin_up * reps) * sets);
+    document.getElementById("ExerciseCounter").innerHTML =
+    calories_burnt + "<span class='countertext'>calories</span>";
+  }
+  else{
+    alert("you have not entered a value");
+  }
+}
+
+function dips_deductor(){
+  var sets = document.getElementById("dips_sets").value;
+  var reps = document.getElementById("dips_reps").value;
+  var dips = 4;
+
+  if (calories_burnt > 0){
+    calories_burnt = calories_burnt - ((dips * reps) * sets);
+    document.getElementById("ExerciseCounter").innerHTML =
+    calories_burnt + "<span class='countertext'>calories</span>";
+  }
+  else{
+    alert("you have not entered a value");
+  }
+}
+
+function triceps_deductor(){
+  var sets = document.getElementById("triceps_sets").value;
+  var reps = document.getElementById("triceps_reps").value;
+  var triceps = 3;
+
+  if (calories_burnt > 0){
+    calories_burnt = calories_burnt - ((triceps * reps) * sets);
+    document.getElementById("ExerciseCounter").innerHTML =
+    calories_burnt + "<span class='countertext'>calories</span>";
+  }
+  else{
+    alert("you have not entered a value");
+  }
+}
+
+function bar_curl_deductor(){
+  var sets = document.getElementById("bar_curl_sets").value;
+  var reps = document.getElementById("bar_curl_reps").value;
+  var bar_curl = 8;
+
+  if (calories_burnt > 0){
+    calories_burnt = calories_burnt - ((bar_curl * reps) * sets);
+    document.getElementById("ExerciseCounter").innerHTML =
+    calories_burnt + "<span class='countertext'>calories</span>";
+  }
+  else{
+    alert("you have not entered a value");
+  }
+}
