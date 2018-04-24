@@ -134,3 +134,131 @@
   padding: 8px 15px;
   margin-top: 15px;
 }
+
+.leg_press {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 35px;
+}
+
+#leg_press_sets {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#leg_press_reps {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#leg_press_curl {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+#add_leg_press {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.squat {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 35px;
+}
+
+#squat_sets {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#squat_reps {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#squat_curl {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+#add_squat {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.dead_lift {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 35px;
+}
+
+#dead_lift_sets {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#dead_lift_reps {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#dead_lift_curl {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+#add_dead_lift {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.leg_extension {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 35px;
+}
+
+#leg_extension_sets {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#leg_extension_reps {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#leg_extension_curl {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+#add_leg_extension {
+  padding: 8px 15px;
+  margin-top: 15px;
+}

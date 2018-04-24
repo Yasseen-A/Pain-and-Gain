@@ -130,3 +130,63 @@ function bar_curl_deductor(){
     alert("you have not entered a value");
   }
 }
+
+function leg_press_deductor(){
+  var sets = document.getElementById("leg_press_sets").value;
+  var reps = document.getElementById("leg_press_reps").value;
+  var leg_press = 3;
+
+  if (calories_burnt > 0){
+    calories_burnt = calories_burnt - ((leg_press * reps) * sets);
+    document.getElementById("ExerciseCounter").innerHTML =
+    calories_burnt + "<span class='countertext'>calories</span>";
+  }
+  else{
+    alert("you have not entered a value");
+  }
+}
+
+function squat_deductor(){
+  var sets = document.getElementById("squat_sets").value;
+  var reps = document.getElementById("squat_reps").value;
+  var squat = 4;
+
+  if (calories_burnt > 0){
+    calories_burnt = calories_burnt - ((squat * reps) * sets);
+    document.getElementById("ExerciseCounter").innerHTML =
+    calories_burnt + "<span class='countertext'>calories</span>";
+  }
+  else{
+    alert("you have not entered a value");
+  }
+}
+
+function dead_lift_deductor(){
+  var sets = document.getElementById("dead_lift_sets").value;
+  var reps = document.getElementById("dead_lift_reps").value;
+  var dead_lift = 5;
+
+  if (calories_burnt > 0){
+    calories_burnt = calories_burnt - ((dead_lift * reps) * sets);
+    document.getElementById("ExerciseCounter").innerHTML =
+    calories_burnt + "<span class='countertext'>calories</span>";
+  }
+  else{
+    alert("you have not entered a value");
+  }
+}
+
+function leg_extension_deductor(){
+  var sets = document.getElementById("leg_extension_sets").value;
+  var reps = document.getElementById("leg_extension_reps").value;
+  var leg_extension = 2;
+
+  if (calories_burnt > 0){
+    calories_burnt = calories_burnt - ((leg_extension * reps) * sets);
+    document.getElementById("ExerciseCounter").innerHTML =
+    calories_burnt + "<span class='countertext'>calories</span>";
+  }
+  else{
+    alert("you have not entered a value");
+  }
+}
