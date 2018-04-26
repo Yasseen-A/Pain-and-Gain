@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./stylesheets/front_page.css">
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   <link rel="stylesheet" href="./stylesheets/exercise_page.css">
-  <link rel="stylesheet" href="./stylesheets/arms_and_legs.css">
+  <link rel="stylesheet" href="./stylesheets/exercises.css">
 </head>
 
 
@@ -249,20 +249,133 @@
 
     <div class="upper_body_exercises">
 
-      these are the upper_body ecxercises
+      <div>
+        <img src="./photos/bench_press.png" class="bench_press">
+        <br>
+        <h2>Bench Press</h2>
+        <input type="number"  min="1" id="bench_press_sets" placeholder="Sets">
+        <input type="number"  min="1" id="bench_press_reps" placeholder="Reps">
+        <br>
+        <button id="add_bench_press" onclick="bench_press_deductor()">Add Bench Press</button>
+      </div>
+
+      <br>
+      <br>
+
+      <div>
+        <img src="./photos/bent_over_row.png" class="bent_over_row">
+        <br>
+        <h2>Bent Over Row</h2>
+        <input type="number"  min="1" id="bent_over_row_sets" placeholder="Sets">
+        <input type="number"  min="1" id="bent_over_row_reps" placeholder="Reps">
+        <br>
+        <button id="add_bent_over_row" onclick="bent_over_row_deductor()">Add Bent Over Row</button>
+      </div>
+
+      <br>
+      <br>
+
+      <div>
+        <img src="./photos/press_up.png" class="press_up">
+        <br>
+        <h2>Press up</h2>
+        <input type="number"  min="1" id="press_up_sets" placeholder="Sets">
+        <input type="number"  min="1" id="press_up_reps" placeholder="Reps">
+        <br>
+        <button id="add_press_up" onclick="press_up_deductor()">Add Press up</button>
+      </div>
+
+      <br>
+      <br>
+
+      <div>
+        <img src="./photos/high_pull.png" class="high_pull">
+        <br>
+        <h2>Barbell High Pull</h2>
+        <input type="number"  min="1" id="high_pull_sets" placeholder="Sets">
+        <input type="number"  min="1" id="high_pull_reps" placeholder="Reps">
+        <br>
+        <button id="add_high_pull" onclick="high_pull_deductor()">Add High Pull</button>
+      </div>
 
     </div>
 
     <div class="lower_body_exercises">
 
-      these are the lower_body ecxercises
+      <div>
+        <img src="./photos/crunch.png" class="crunch">
+        <br>
+        <h2>Crunch</h2>
+        <input type="number"  min="1" id="crunch_sets" placeholder="Sets">
+        <input type="number"  min="1" id="crunch_reps" placeholder="Reps">
+        <br>
+        <button id="add_crunch" onclick="crunch_deductor()">Add Crunch</button>
+      </div>
+
+      <br>
+      <br>
+
+      <div>
+        <img src="./photos/ball_twist.png" class="ball_twist">
+        <br>
+        <h2>Medicine Ball Twist</h2>
+        <input type="number"  min="1" id="ball_twist_sets" placeholder="Sets">
+        <input type="number"  min="1" id="ball_twist_reps" placeholder="Reps">
+        <br>
+        <button id="add_ball_twist" onclick="ball_twist_deductor()">Add Medicine Ball Twist</button>
+      </div>
+
+      <br>
+      <br>
+
+      <div>
+        <img src="./photos/plank.png" class="plank">
+        <br>
+        <h2>Plank</h2>
+        <input type="number"  min="1" id="plank_seconds" placeholder="Seconds">
+        <br>
+        <button id="add_plank" onclick="plank_deductor()">Add Plank</button>
+      </div>
+
 
     </div>
 
     <div class="cardio_exercises">
 
-      these are the cardio ecxercises
+      <div>
+        <img src="./photos/running.png" class="running">
+        <br>
+        <h2>Running</h2>
+        <input type="number"  min="1" id="running_minutes" placeholder="Minutes">
+        <br>
+        <button id="add_running" onclick="running_deductor()">Add Running</button>
+      </div>
 
+      <br>
+      <br>
+      <br>
+
+      <div>
+        <img src="./photos/rowing.png" class="rowing">
+        <br>
+        <h2>Rowing</h2>
+        <input type="number"  min="1" id="rowing_minutes" placeholder="Minutes">
+        <br>
+        <button id="add_rowing" onclick="rowing_deductor()">Add Rowing</button>
+      </div>
+
+      <br>
+      <br>
+      <br>
+
+      <div>
+        <img src="./photos/cycling.png" class="cycling">
+        <br>
+        <h2>Cycling</h2>
+        <input type="number"  min="1" id="cycling_minutes" placeholder="Minutes">
+        <br>
+        <button id="add_cycling" onclick="cycling_deductor()">Add Cycling</button>
+      </div>
     </div>
 
 

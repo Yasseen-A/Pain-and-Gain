@@ -219,3 +219,179 @@ function leg_extension_deductor() {
   alert("You need to re/set your target");
 }
 }
+
+function bench_press_deductor() {
+  var sets = document.getElementById("bench_press_sets").value;
+  var reps = document.getElementById("bench_press_reps").value;
+  var bench_press = 3;
+
+  if (typeof calories_burnt !== 'undefined' && calories_burnt) {
+    if (calories_burnt > 0) {
+      calories_burnt = calories_burnt - ((bench_press * reps) * sets);
+      document.getElementById("ExerciseCounter").innerHTML =
+      calories_burnt + "<span class='countertext'>calories</span>";
+  } else {
+    alert("You have reached your target");
+  }
+} else {
+  alert("You need to re/set your target");
+}
+}
+
+function bent_over_row_deductor() {
+  var sets = document.getElementById("bent_over_row_sets").value;
+  var reps = document.getElementById("bent_over_row_reps").value;
+  var bent_over_row = 2;
+
+  if (typeof calories_burnt !== 'undefined' && calories_burnt) {
+    if (calories_burnt > 0) {
+      calories_burnt = calories_burnt - ((bent_over_row * reps) * sets);
+      document.getElementById("ExerciseCounter").innerHTML =
+      calories_burnt + "<span class='countertext'>calories</span>";
+  } else {
+    alert("You have reached your target");
+  }
+} else {
+  alert("You need to re/set your target");
+}
+}
+
+function press_up_deductor() {
+  var sets = document.getElementById("press_up_sets").value;
+  var reps = document.getElementById("press_up_reps").value;
+  var press_up = 1;
+
+  if (typeof calories_burnt !== 'undefined' && calories_burnt) {
+    if (calories_burnt > 0) {
+      calories_burnt = calories_burnt - ((press_up * reps) * sets);
+      document.getElementById("ExerciseCounter").innerHTML =
+      calories_burnt + "<span class='countertext'>calories</span>";
+  } else {
+    alert("You have reached your target");
+  }
+} else {
+  alert("You need to re/set your target");
+}
+}
+
+function high_pull_deductor() {
+  var sets = document.getElementById("high_pull_sets").value;
+  var reps = document.getElementById("high_pull_reps").value;
+  var high_pull = 3;
+
+  if (typeof calories_burnt !== 'undefined' && calories_burnt) {
+    if (calories_burnt > 0) {
+      calories_burnt = calories_burnt - ((high_pull * reps) * sets);
+      document.getElementById("ExerciseCounter").innerHTML =
+      calories_burnt + "<span class='countertext'>calories</span>";
+  } else {
+    alert("You have reached your target");
+  }
+} else {
+  alert("You need to re/set your target");
+}
+}
+
+function crunch_deductor() {
+  var sets = document.getElementById("crunch_sets").value;
+  var reps = document.getElementById("crunch_reps").value;
+  var crunch = 1;
+
+  if (typeof calories_burnt !== 'undefined' && calories_burnt) {
+    if (calories_burnt > 0) {
+      calories_burnt = calories_burnt - ((crunch * reps) * sets);
+      document.getElementById("ExerciseCounter").innerHTML =
+      calories_burnt + "<span class='countertext'>calories</span>";
+  } else {
+    alert("You have reached your target");
+  }
+} else {
+  alert("You need to re/set your target");
+}
+}
+
+function ball_twist_deductor() {
+  var sets = document.getElementById("ball_twist_sets").value;
+  var reps = document.getElementById("ball_twist_reps").value;
+  var ball_twist = 1;
+
+  if (typeof calories_burnt !== 'undefined' && calories_burnt) {
+    if (calories_burnt > 0) {
+      calories_burnt = calories_burnt - ((ball_twist * reps) * sets);
+      document.getElementById("ExerciseCounter").innerHTML =
+      calories_burnt + "<span class='countertext'>calories</span>";
+  } else {
+    alert("You have reached your target");
+  }
+} else {
+  alert("You need to re/set your target");
+}
+}
+
+function plank_deductor() {
+  var seconds = document.getElementById("plank_seconds").value;
+  var plank = 0.3;
+
+  if (typeof calories_burnt !== 'undefined' && calories_burnt) {
+    if (calories_burnt > 0) {
+      calories_burnt = calories_burnt - (plank * seconds);
+      document.getElementById("ExerciseCounter").innerHTML =
+      calories_burnt + "<span class='countertext'>calories</span>";
+  } else {
+    alert("You have reached your target");
+  }
+} else {
+  alert("You need to re/set your target");
+}
+}
+
+function running_deductor() {
+  var minutes = document.getElementById("running_minutes").value;
+  var running = 10;
+
+  if (typeof calories_burnt !== 'undefined' && calories_burnt) {
+    if (calories_burnt > 0) {
+      calories_burnt = calories_burnt - (running * minutes);
+      document.getElementById("ExerciseCounter").innerHTML =
+      calories_burnt + "<span class='countertext'>calories</span>";
+  } else {
+    alert("You have reached your target");
+  }
+} else {
+  alert("You need to re/set your target");
+}
+}
+
+function cycling_deductor() {
+  var minutes = document.getElementById("cycling_minutes").value;
+  var cycling = 8.5;
+
+  if (typeof calories_burnt !== 'undefined' && calories_burnt) {
+    if (calories_burnt > 0) {
+      calories_burnt = calories_burnt - (cycling * minutes);
+      document.getElementById("ExerciseCounter").innerHTML =
+      calories_burnt + "<span class='countertext'>calories</span>";
+  } else {
+    alert("You have reached your target");
+  }
+} else {
+  alert("You need to re/set your target");
+}
+}
+
+function rowing_deductor() {
+  var minutes = document.getElementById("rowing_minutes").value;
+  var rowing = 7;
+
+  if (typeof calories_burnt !== 'undefined' && calories_burnt) {
+    if (calories_burnt > 0) {
+      calories_burnt = calories_burnt - (rowing * minutes);
+      document.getElementById("ExerciseCounter").innerHTML =
+      calories_burnt + "<span class='countertext'>calories</span>";
+  } else {
+    alert("You have reached your target");
+  }
+} else {
+  alert("You need to re/set your target");
+}
+}

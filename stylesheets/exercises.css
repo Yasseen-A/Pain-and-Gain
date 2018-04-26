@@ -157,11 +157,6 @@
   padding: 12px 20px;
 }
 
-#leg_press_curl {
-  padding: 8px 15px;
-  margin-top: 15px;
-}
-
 #add_leg_press {
   padding: 8px 15px;
   margin-top: 15px;
@@ -187,11 +182,6 @@
   margin-left: 20px;
   margin-top: 10px;
   padding: 12px 20px;
-}
-
-#squat_curl {
-  padding: 8px 15px;
-  margin-top: 15px;
 }
 
 #add_squat {
@@ -221,11 +211,6 @@
   padding: 12px 20px;
 }
 
-#dead_lift_curl {
-  padding: 8px 15px;
-  margin-top: 15px;
-}
-
 #add_dead_lift {
   padding: 8px 15px;
   margin-top: 15px;
@@ -253,12 +238,246 @@
   padding: 12px 20px;
 }
 
-#leg_extension_curl {
+#add_leg_extension {
   padding: 8px 15px;
   margin-top: 15px;
 }
 
-#add_leg_extension {
+.bench_press {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 30px;
+  border-radius: 35px;
+}
+
+#bench_press_sets {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#bench_press_reps {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#add_bench_press {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.bent_over_row {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 35px;
+}
+
+#bent_over_row_sets {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#bent_over_row_reps {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#add_bent_over_row {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.press_up {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 35px;
+}
+
+#press_up_sets {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#press_up_reps {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#add_press_up {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.high_pull {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 35px;
+}
+
+#high_pull_sets {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#high_pull_reps {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#add_high_pull {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.crunch {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 35px;
+}
+
+#crunch_sets {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#crunch_reps {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#add_crunch {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.ball_twist {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 35px;
+}
+
+#ball_twist_sets {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#ball_twist_reps {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#add_ball_twist {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.plank {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 35px;
+}
+
+#plank_seconds {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#add_plank {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.running {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 35px;
+}
+
+#running_minutes {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#add_running {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.rowing {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 35px;
+}
+
+#rowing_minutes {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#add_rowing {
+  padding: 8px 15px;
+  margin-top: 15px;
+}
+
+.cycling {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 35px;
+}
+
+#cycling_minutes {
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+#add_cycling {
   padding: 8px 15px;
   margin-top: 15px;
 }
