@@ -1,0 +1,12 @@
+.history_page > form > h1 {
+  font-size: 40pt;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.history_page > form > textarea {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 12pt;
+}
