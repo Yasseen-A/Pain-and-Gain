@@ -83,18 +83,28 @@ targets-->
 <!-- This div contains the contents for the plans that will calculate your targets-->
     <div class="plans">
 
-<!-- The two buttons that will allow the user to input their target-->
+<!-- The two buttons that will allow the user to input their target and the two buttons
+that will edit them-->
       <div class="ButtonGroup">
 
         <button id="CalorieButton" onclick="EatingTarget()">Consuming Target</button>
         <button id="ExerciseButton" onclick="MyBurningTarget()">Exercising Target</button>
+
       </div>
+
 <!--These two id's are where the text will be visible once the targert is entered-->
       <div class="TargetGroup">
 
         <p id="CalorieCounter"></p>
+          <button id="Edit_calories" onclick="EatingTarget()">Edit Target</button>
         <p id="ExerciseCounter"></p>
+          <button id="Edit_exercises" onclick="MyBurningTarget()">Edit Target</button>
       </div>
+
+
+
+
+
 
     </div>
   <!-- End of the current plan page-->

@@ -71,9 +71,8 @@ body {
 #CalorieCounter{
   margin-top: 300px;
   margin-left: 200px;
-  margin-bottom: 300px;
   float: left;
-    overflow: hidden;
+
 }
 
 .countertext{
@@ -85,8 +84,8 @@ body {
   font-size: 14pt;
   margin-top: 300px;
   margin-left: 200px;
-  margin-bottom: 500px;
-  position: fixed;
+  float: left;
+
 }
 
 #ExerciseCounter{
@@ -97,8 +96,8 @@ body {
 #ExerciseCounter{
   margin-top: 300px;
   margin-right: 200px;
-  margin-bottom: 300px;
   float:right;
+
 }
 
 .countertext{
@@ -109,10 +108,25 @@ body {
   padding: 10px 25px;
   font-size: 14pt;
   margin-top: 300px;
-  margin-left: 900px;
-  margin-bottom: 500px;
-  position: fixed;
+  margin-right: 200px;
+  float:right;
 }
+
+#Edit_calories{
+  padding:8px 20px;
+  margin-left: 250px;
+  float: left;
+  position: absolute;
+}
+
+#Edit_exercises{
+  padding:8px 20px;
+  margin-right: 242px;
+  float: right;
+  position: absolute;
+}
+
+
 
 .food_tab{
   display: none;

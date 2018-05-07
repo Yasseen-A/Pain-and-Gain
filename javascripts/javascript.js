@@ -26,8 +26,8 @@ function EatingTarget() {
 function MyBurningTarget() {
   calories_burnt = prompt("How many calories would you like to burn?");
   // if function to make sure that the value entered is a number
-  if (calories_burnt !== null && isNaN(calories_burnt) || calories <= 0) {
-    alert("Error - You must enter a number");
+  if (calories_burnt !== null && isNaN(calories_burnt) || calories_burnt <= 0) {
+    alert("Error - You must enter a positive number");
   } else {
     document.getElementById("ExerciseCounter").innerHTML =
       calories_burnt + "<span class='countertext'>calories</span>";
