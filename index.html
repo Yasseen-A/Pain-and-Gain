@@ -80,43 +80,43 @@ targets-->
     </div>
     <!--end of the home page-->
 
-<!-- This div contains the contents for the plans that will calculate your targets-->
+    <!-- This div contains the contents for the plans that will calculate your targets-->
     <div class="plans">
 
-<!-- The two buttons that will allow the user to input their target and the two buttons
-that will edit them-->
-      <div class="ButtonGroup">
+      <div class="Headings">
 
-        <button id="CalorieButton" onclick="EatingTarget()">Consuming Target</button>
-        <button id="ExerciseButton" onclick="MyBurningTarget()">Exercising Target</button>
+        <h1 class="Calorie_heading">Eating Target</h1>
+        <h1 class="Exercising_heading">Exercising Target</h1>
 
       </div>
 
-<!--These two id's are where the text will be visible once the targert is entered-->
-      <div class="TargetGroup">
+      <!-- The two buttons that will allow the user to input their target -->
 
-        <p id="CalorieCounter"></p>
-          <button id="Edit_calories" onclick="EatingTarget()">Edit Target</button>
-        <p id="ExerciseCounter"></p>
-          <button id="Edit_exercises" onclick="MyBurningTarget()">Edit Target</button>
-      </div>
+      <button id="CalorieButton" onclick="EatingTarget()">Consuming Target</button>
+      <button id="ExerciseButton" onclick="MyBurningTarget()">Exercising Target</button>
 
+      <!-- these are the paragraphs that will display the text for the target-->
+      <p id="CalorieCounter"></p>
+      <p id="ExerciseCounter"></p>
 
-
-
-
+      <br>
+      <br>
+      <!-- these two buttons will allow the user to edit their target if they make
+      a mistake-->
+      <button id="Edit_calories" onclick="EatingTarget()">Edit Target</button>
+      <button id="Edit_exercises" onclick="MyBurningTarget()">Edit Target</button>
 
     </div>
-  <!-- End of the current plan page-->
+    <!-- End of the current plan page-->
 
 
-<!--the beginning of the calories page-->
+    <!--the beginning of the calories page-->
     <div class="food_tab">
 
-<!--this form contains the list of the various different foods and their calories value-->
+      <!--this form contains the list of the various different foods and their calories value-->
       <form name="food_form">
-        <div class="calorie_intake">
-          <select name="foodList">
+        <div id="calorie_intake">
+          <select name="foodList" id="calorie_intakes">
       <option value="0"> - Please select an item - </option>
       <option value="100">Coke 100 cal</option>
       <option value="200">Crisps 200 cal</option>
@@ -124,7 +124,7 @@ that will edit them-->
       <option value="400">Sweets 400 cal</option>
     </select>
         </div>
-<!--this form is so that the user can choose their quantitiy of their selected food-->
+        <!--this form is so that the user can choose their quantitiy of their selected food-->
         <div class="quantitiy">
           <select name="food_quantity">
       <option value="1">- Quantity -</option>
@@ -178,7 +178,7 @@ that will edit them-->
       <button id="cardio">Cardio</button>
     </div>
 
-<!--beginning of the arm exercises page-->
+    <!--beginning of the arm exercises page-->
     <div class="arm_exercises">
 
       <!--div for bicep curl exercise-->
@@ -190,7 +190,7 @@ that will edit them-->
         <input type="number" min="1" id="curls_sets" placeholder="Sets">
         <input type="number" min="1" id="curls_reps" placeholder="Reps">
         <br>
-      <!-- button that will deduct the sets and reps from the exercise counter-->
+        <!-- button that will deduct the sets and reps from the exercise counter-->
         <button id="add_curls" onclick="bicep_curls_deductor()">Add Bicep Curls</button>
       </div>
 
@@ -257,9 +257,9 @@ that will edit them-->
       </div>
 
     </div>
-<!--end of arm exercises-->
+    <!--end of arm exercises-->
 
-<!--beginning of the leg exercises page-->
+    <!--beginning of the leg exercises page-->
     <div class="leg_exercises">
 
       <div>
@@ -321,9 +321,9 @@ that will edit them-->
       </div>
 
     </div>
-<!--end of leg exercises-->
+    <!--end of leg exercises-->
 
-<!--beginning of the upper body exercises page-->
+    <!--beginning of the upper body exercises page-->
     <div class="upper_body_exercises">
 
       <div>
@@ -385,9 +385,9 @@ that will edit them-->
       </div>
 
     </div>
-<!--end of upper body exercises-->
+    <!--end of upper body exercises-->
 
-<!--beginning of the lower body exercises page-->
+    <!--beginning of the lower body exercises page-->
     <div class="lower_body_exercises">
 
       <div>
@@ -433,9 +433,9 @@ that will edit them-->
 
 
     </div>
-<!--end of lower body exercises-->
+    <!--end of lower body exercises-->
 
-<!--beginning of the cardio exercises page-->
+    <!--beginning of the cardio exercises page-->
     <div class="cardio_exercises">
 
       <div>
@@ -479,21 +479,25 @@ that will edit them-->
         <button id="add_cycling" onclick="cycling_deductor()">Add Cycling</button>
       </div>
     </div>
-  <!--end of cardio exercises-->
+    <!--end of cardio exercises-->
 
-  <div class="history_page">
-    <form name="myform">
-    <h1>History</h1>
-    <textarea id="food_log" name="food_history" rows="20" cols="100"></textarea>
-    </form>
-</div>
+    <div class="history_page">
+      <form name="myform">
+        <h1>History</h1>
+        <textarea id="food_log" name="food_history" rows="15" cols="40"></textarea>
+      </form>
+
+      <td>Filename to Save As:</td>
+  <td><input id="inputFileNameToSaveAs"></input></td>
+      <center><button id="save_button" onclick="saveTextAsFile()">Save History</button></center>
+    </div>
 
 
 
 
 
 
-<!-- this is the scripting that will hide divs once another button from the navigation bar is clicked-->
+    <!-- this is the scripting that will hide divs once another button from the navigation bar is clicked-->
     <script>
       $(document).ready(function() {
         $("#home_page").click(function() {

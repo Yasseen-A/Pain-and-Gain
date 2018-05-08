@@ -1,4 +1,4 @@
-.calorie_intake > select{
+#calorie_intake > select{
   padding: 6px 200px;
   font-size: 16pt;
   border-radius: 12px;
