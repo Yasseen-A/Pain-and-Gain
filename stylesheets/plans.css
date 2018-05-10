@@ -1,3 +1,8 @@
+/*this is the css for the plans that the user will be able to input their target
+and where they will also be able to see their counters and how many clories they have left*/
+
+
+/*wrapper that keeps text in the middle of the page*/
 .wrapper {
   margin: 0 auto;
   width: 1300px;
@@ -22,12 +27,14 @@ body {
   height: 100%;
 }
 
+/*class for the background image*/
 .combo1 {
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+/*topnav is my navigation bar*/
 .topnav {
   margin-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
@@ -63,6 +70,7 @@ body {
   padding: 25px 40px;
 }
 
+/*calorie counter is the text that displays their remaining consuming target*/
 #CalorieCounter{
   font-size: 60pt;
   font-family: Arial;
@@ -80,15 +88,17 @@ body {
   font-size: 25pt;
 }
 
+/*calorie button is the button that allows the user to input their target*/
 #CalorieButton{
   padding: 10px 25px;
   font-size: 14pt;
   margin-top: 50px;
   margin-left: 250px;
-  position: fixed;
+  position: absolute;
 
 }
 
+/* exercise counter is the text that will display their remaining burning target*/
 #ExerciseCounter{
   font-size: 60pt;
   font-family: Arial;
@@ -107,12 +117,13 @@ body {
   font-size: 25pt;
 }
 
+/* exercise button is the button that will allow the user to input their burning target*/
 #ExerciseButton{
   padding: 10px 25px;
   font-size: 14pt;
   margin-top: 50px;
   margin-left: 800px;
-  position: fixed;
+  position: absolute;
 }
 
 #Edit_calories{
@@ -152,7 +163,7 @@ body {
 }
 
 
-
+/*css that will hide the divs for the specific tabs*/
 .food_tab{
   display: none;
 }

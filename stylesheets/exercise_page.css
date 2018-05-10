@@ -1,10 +1,11 @@
+/*button that will take you to the arms exercises*/
 #arms {
   font-size: 22pt;
   padding: 75px 75px;
   margin-left: 400px;
   margin-top: 50px;
 }
-
+/*button that will take you to the leg exercises*/
 #legs {
   font-size: 22pt;
   padding: 75px 75px;
@@ -12,6 +13,7 @@
   margin-top: 50px;
 }
 
+/*button that will take you to the upper body exercises*/
 #upper_body {
   font-size: 22pt;
   padding: 75px 32px;
@@ -19,6 +21,7 @@
   margin-top: 50px;
 }
 
+/*button that will take you to the lower body exercises*/
 #lower_body {
   font-size: 22pt;
   padding: 75px 32px;
@@ -26,6 +29,7 @@
   margin-top: 50px;
 }
 
+/*button that will take you to the cardio exercises*/
 #cardio {
   font-size: 22pt;
   padding: 75px 75px;
@@ -35,6 +39,7 @@
   margin-bottom: 30px;
 }
 
+/* the rest of these are a hover element which will make them become bigger once hovered over*/
 #arms:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);

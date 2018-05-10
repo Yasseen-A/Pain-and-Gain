@@ -1,3 +1,8 @@
+/*css elements for the image in the header of the page, the text and the button at the bottom*/
+
+.page_logo{
+  margin-left: 450px;
+}
 
 .Logo {
   background-color: #e0e0e0;

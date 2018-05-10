@@ -1,0 +1,103 @@
+/*the css for the log-in boxes at the top right hand side of the page*/
+
+.nav-login{
+  float: right;
+}
+
+.nav-login > form{
+  float: left;
+  padding-top: 35px;
+}
+
+.nav-login > form > input{
+  float: left;
+  width: 140px;
+  height: 30px;
+  padding: 0px 10px;
+  margin-right: 10px;
+  border: none;
+  font-family: arial;
+  font-size: 14px;
+  color: #111;
+  line-height: 30px;
+}
+
+.nav-login > form > button{
+  float: left;
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+  border: none;
+  background-color: #f3f3f3;
+  font-family: arial;
+  font-size: 14px;
+  color: #111;
+  cursor: pointer;
+}
+
+.nav-login > form > a{
+  display: block;
+  width: 60px;
+  border: none;
+  float: left;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 35px;
+  cursor:pointer;
+}
+
+/* signup.php css*/
+
+.signup-form {
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.signup-form > input{
+  width: 90%;
+  height: 40px;
+  padding: 0px 5%;
+  margin-bottom: 4px;
+  border: none;
+  background-color: #8f8f8f;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 40px;
+}
+
+.signup-form > input{
+  width: 90%;
+  height: 40px;
+  padding: 0px 5%;
+  margin-bottom: 4px;
+  border: none;
+  background-color: #dbdbdb;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 40px;
+}
+
+.signup-form > button{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 30%;
+  height: 40px;
+  border: none;
+  background-color: #222;
+  font-family: arial;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.signup-heading{
+  text-align: center;
+  font-family: arial;
+  font-size: 50px;
+}

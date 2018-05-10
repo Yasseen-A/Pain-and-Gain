@@ -1,3 +1,6 @@
+/* history page css*/
+
+
 .history_page > form > h1 {
   font-size: 40pt;
   text-align: center;
@@ -16,4 +19,14 @@
   padding: 10px 25px;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/*text that the user will see to ask them for a file name*/
+.file_ask {
+  font-size: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.history_page > center > input {
+  padding: 8px 18px;
 }

@@ -1,3 +1,5 @@
+/* calorie intake is for the drop down list of the food*/
+
 #calorie_intake > select{
   padding: 6px 200px;
   font-size: 16pt;
@@ -8,6 +10,7 @@
   text-align: center;
 }
 
+/*drop down list for the quantity of the food*/
 .quantitiy > select {
   padding: 6px 120px;
   font-size: 16pt;
@@ -18,6 +21,7 @@
   text-align: center;
 }
 
+/*button to add food*/
 #add_food{
   margin-top: 40px;
   margin-left: 140px;
@@ -25,6 +29,7 @@
   font-size: 12pt;
 }
 
+/*header to alert the user that they can enter their food manually*/
 .option_header{
   font-size: 32pt;
   font-family: Arial, Helvetica, sans-serif;
@@ -32,13 +37,15 @@
   margin-top: 100px;
 }
 
+/*input to enter food name manually*/
 #enter_food{
   padding: 6px 20px;
   font-size: 16pt;
   margin-top: 40px;
   margin-left: 325px;
-
 }
+
+/*input to enter calories manually*/
 #manual_calories{
   padding: 6px 20px;
   font-size: 16pt;
@@ -46,6 +53,7 @@
 
 }
 
+/*button to add food manually*/
 #manual_entry{
   padding: 10px 20px;
   font-size: 12pt;
