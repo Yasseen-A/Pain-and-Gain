@@ -1,3 +1,7 @@
+<!--this is some of the stuff I had to learn myself-->
+<!-- This is what the user will see once they click on the sign up button so that they can input
+their details which will be saved to a database-->
+
 <?php
   include_once 'header.php';
 ?>

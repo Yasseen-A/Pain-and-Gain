@@ -51,7 +51,7 @@ function calorie_deductor() {
     if (calories >= 0) {
       calories = calories - food_total;
       document.getElementById("CalorieCounter").innerHTML =
-        calories + "<span class='countertext'>calories</span>";
+        calories + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         food_name + " - " + food_total + " calories \n\r";
     } else {
@@ -73,7 +73,7 @@ function manual_deductor() {
     if (calories >= 0) {
       calories = calories - self_calories;
       document.getElementById("CalorieCounter").innerHTML =
-        calories + "<span class='countertext'>calories</span>";
+        calories + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newtext =
         name_of_food + " - " + self_calories + " calories \n\r";
     } else {
@@ -96,7 +96,7 @@ function bicep_curls_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((bicep_curl * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Bicep Curls" + " - " + sets + " sets " + reps + " reps \n\r ";
     } else {
@@ -118,7 +118,7 @@ function chin_up_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((chin_up * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.getElementById("food_log").innerHTML =
         "Chin ups" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -140,7 +140,7 @@ function dips_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((dips * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Dips" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -162,7 +162,7 @@ function triceps_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((triceps * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Tricep pushdown" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -184,7 +184,7 @@ function bar_curl_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((bar_curl * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Bar Curls" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -206,7 +206,7 @@ function leg_press_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((leg_press * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Leg Press" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -228,7 +228,7 @@ function squat_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((squat * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Squat" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -250,7 +250,7 @@ function dead_lift_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((dead_lift * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Dead lift" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -272,7 +272,7 @@ function leg_extension_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((leg_extension * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Leg extension" + " - " + sets + " sets " + reps + " reps \n\r ";
     } else {
@@ -294,7 +294,7 @@ function bench_press_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((bench_press * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Bench Press" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -316,7 +316,7 @@ function bent_over_row_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((bent_over_row * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Bent over row" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -338,7 +338,7 @@ function press_up_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((press_up * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Press up" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -360,7 +360,7 @@ function high_pull_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((high_pull * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "High pull" + " - " + sets + " sets " + reps + " reps\n\r";
     } else {
@@ -382,7 +382,7 @@ function crunch_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((crunch * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Crunch" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -404,7 +404,7 @@ function ball_twist_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - ((ball_twist * reps) * sets);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Medicine Ball Twist" + " - " + sets + " sets " + reps + " reps \n\r";
     } else {
@@ -425,7 +425,7 @@ function plank_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - (plank * seconds);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Plank" + " - " + seconds + " seconds \n\r";
     } else {
@@ -446,7 +446,7 @@ function running_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - (running * minutes);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Running" + " - " + minutes + " minutes \n\r";
     } else {
@@ -467,7 +467,7 @@ function cycling_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - (cycling * minutes);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Cycling" + " - " + minutes + " minutes\n\r ";
     } else {
@@ -488,7 +488,7 @@ function rowing_deductor() {
     if (calories_burnt > 0) {
       calories_burnt = calories_burnt - (rowing * minutes);
       document.getElementById("ExerciseCounter").innerHTML =
-        calories_burnt + "<span class='countertext'>calories</span>";
+        calories_burnt + "<span class='countertext'>calories left</span>";
       document.myform.food_history.value += newline =
         "Rowing" + " - " + minutes + " minutes \n\r";
     } else {

@@ -148,10 +148,35 @@ targets-->
         <div id="calorie_intake">
           <select name="foodList" id="calorie_intakes">
       <option value="0"> - Please select an item - </option>
-      <option value="100">Coke 100 cal</option>
-      <option value="200">Crisps 200 cal</option>
-      <option value="300">Burger 300 cal</option>
-      <option value="400">Sweets 400 cal</option>
+      <option value="74">Tomato Soup 74 cal</option>
+      <option value="239">Pankakes 239 cal</option>
+      <option value="240">Bagel 240 cal</option>
+      <option value="500">Full breakfast 500 cal</option>
+      <option value="200">Cheese sandwich 200 cal</option>
+      <option value="120">Salad 120 cal</option>
+      <option value="420">Steak and chips 420 cal</option>
+      <option value="306">Chicken fajitas 306 cal</option>
+      <option value="620">Burger and chips 620 cal</option>
+      <option value="18">Tomato 18 cal</option>
+      <option value="30">Soft Drink 30 cal</option>
+      <option value="47">Orange 47 cal</option>
+      <option value="252">Doughnut 252 cal</option>
+      <option value="155">Chocolate 155 cal</option>
+      <option value="50">Sweets 50 cal</option>
+      <option value="53">Bread 53 cal</option>
+      <option value="16">Crackers 16 cal</option>
+      <option value="180">Cereal 180 cal</option>
+      <option value="91">Scrambled egg 91 cal</option>
+      <option value="445">Fish&Chips 445cal</option>
+      <option value="192">Fried Chicken 192 cal</option>
+      <option value="163">Rice cal 163</option>
+      <option value="600">Curry 600 cal</option>
+      <option value="125">Porridge 125 cal</option>
+      <option value="100">Yogurt 100 cal</option>
+      <option value="770">Mixed kebab 770 cal</option>
+      <option value="310">Macarooni cheese 310 cal</option>
+      <option value="277">Fruit Pie 277 cal</option>
+      <option value="209">Stew 209 cal</option>
     </select>
         </div>
         <!--this form is so that the user can choose their quantitiy of their selected food-->
